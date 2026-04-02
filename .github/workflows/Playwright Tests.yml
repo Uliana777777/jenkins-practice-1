@@ -44,8 +44,8 @@ jobs:
   #configuring environment variables Example   
       - name: Configure environment variables from secrets
         run: |
-    echo "PRACTICE_USERNAME=${{ secrets.PRACTICE_USERNAME }}" >> .env
-    echo "PRACTICE_PASSWORD=${{ secrets.PRACTICE_PASSWORD }}" >> .env
+          echo "PRACTICE_USERNAME=${{ secrets.PRACTICE_USERNAME }}" >> .env
+          echo "PRACTICE_PASSWORD=${{ secrets.PRACTICE_PASSWORD }}" >> .env
 
 
 #Running tests with Playwright 
